@@ -26,7 +26,7 @@ st.markdown("""
 
 # --- Chargement du modèle et des données ---
 model = joblib.load("model/best_randomforest_model.joblib")
-df = pd.read_csv("C:/Users/USERNAME/Desktop/app/financial_inclusion_app/data/Financial_inclusion_dataset.csv")
+df = pd.read_csv("data/Financial_inclusion_dataset.csv")
 df = df.drop(columns=['year', 'uniqueid'])
 
 # --- Préparation du preprocessing ---
