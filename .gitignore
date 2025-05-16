@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# VSCode settings
+.vscode/
+
+# Python model files temporairement téléchargés ou en double
+model/*(1)*.joblib
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Python cache directories
+__pycache__/
+
+# Ignore common IDE/editor folders
+.idea/
+
+# Ignore temporary files with weird chars in names
+*\342\234\205*
+
+# Ignore possible duplicated or corrupted requirements files
+*\342\234\205*requirements.txt
+
+# Ignore pip cache
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore Streamlit specific cache (optional)
+.streamlit/
+
